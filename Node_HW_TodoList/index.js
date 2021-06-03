@@ -7,7 +7,7 @@ const PORT = 3000;
 const todoRoutes = require('./routes/todo');
 const app = express();
 
-mongoose.connect('mongodb+srv://natalyaf:troyanda123456@cluster0.nyewb.mongodb.net/todoDB?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://natalyaf:passwd@cluster0.nyewb.mongodb.net/todoDB?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true, 
     useFindAndModify: true, 
