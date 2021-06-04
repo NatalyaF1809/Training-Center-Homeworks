@@ -7,7 +7,7 @@ const removeTodo = require('../middleware/removeTodo');
 const markDoneUnDone = require('../middleware/markDoneUnDone');
 const getOneTodo = require('../middleware/getOneTodo');
 
-
+// What about route for updating todo description?
 router.get('/', getTodos, function(req, res) {
     return res.send(req.data);
 })
